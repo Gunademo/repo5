@@ -1,15 +1,3 @@
-(function(n, t, a, e) {
-    var i = "aptrinsic";
-    n[i] = n[i] || function() {
-        (n[i].q = n[i].q || []).push(arguments)
-    }, n[i].p = e;
-    var r = t.createElement("script");
-    r.async = !0, r.src = a + "?a=" + e;
-    var c = t.getElementsByTagName("script")[0];
-    c.parentNode.insertBefore(r, c)
-})(window, document, "https://web-sdk.aptrinsic.com/api/aptrinsic.js", "AP-RVUKE5ITK77K-2");
-
-
 function validate() {
 
     var email = document.getElementsByName('email')[0].value;
@@ -39,18 +27,19 @@ function validate() {
 
 
             //passing user and account objects:
-            aptrinsic("identify", {
-                //User Fields
-                "id": id, // Required for logged in app users
-                "email": email,
-                "DOB": dob,
-                "SSID": ssid,
-            }, {
-                //Account Fields
+            /*   aptrinsic("identify", {
+                   //User Fields
+                   "id": id, // Required for logged in app users
+                   "email": email,
+                   "DOB": dob,
+                   "SSID": ssid,
+               }, {
+                   //Account Fields
 
-                "id": acc_id, //Required
-                "name": acc_name,
-            });
+                   "id": acc_id, //Required
+                   "name": acc_name,
+               });
+               */
 
             alert("Logged in user id :" + id + "  from  " + id_var[1]);
             window.location = "https://gunademo.github.io/repo4/index.html";
