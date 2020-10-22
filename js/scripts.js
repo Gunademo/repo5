@@ -27,19 +27,19 @@ function validate() {
 
 
             //passing user and account objects:
-            /*   aptrinsic("identify", {
-                   //User Fields
-                   "id": id, // Required for logged in app users
-                   "email": email,
-                   "DOB": dob,
-                   "SSID": ssid,
-               }, {
-                   //Account Fields
+            aptrinsic("identify", {
+                //User Fields
+                "id": id, // Required for logged in app users
+                "email": email,
+                "DOB": dob,
+                "SSID": ssid,
+            }, {
+                //Account Fields
 
-                   "id": acc_id, //Required
-                   "name": acc_name,
-               });
-               */
+                "id": acc_id, //Required
+                "name": acc_name,
+            });
+
 
             alert("Logged in user id :" + id + "  from  " + id_var[1]);
             window.location = "https://gunademo.github.io/repo5/index.html";
