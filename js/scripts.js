@@ -42,7 +42,7 @@ function validate() {
                */
 
             alert("Logged in user id :" + id + "  from  " + id_var[1]);
-            window.location = "https://gunademo.github.io/repo4/index.html";
+            window.location = "https://gunademo.github.io/repo5/index.html";
 
 
         } else
